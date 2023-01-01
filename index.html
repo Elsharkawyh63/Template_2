@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasper</title>
+    <!-- font icon  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- normlize -->
+    <link rel="stylesheet" href="css/normal.css">
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/kasper.css">
+    <!-- google font open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo" >
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <nav>
+                <i class="fa-solid fa-bars menu"></i>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="form">
+                    <input type="text" class="ftex">
+                    <i class="fa-solid fa-magnifying-glass ico"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start landing -->
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="text">
+            <div class="content">
+                <h2>HELLO WORLD! <br>WE ARE KASPER , WE MAKE ART</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ducimus est doloribus corrupti mollitia deleniti fugiat incidunt quibusdam, voluptatibus labore iusto, provident quas maiores totam.</p>
+            </div>
+        </div>
+        <i class="fa-solid fa-angle-right change-bk fa-3x"></i>
+        <i class="fa-solid fa-angle-left change-bk fa-3x"></i>
+        <div class="bullets">
+            <ul>
+                <li class="bone" onclick="chan('bone')"></li>
+                <li class="active btwo" onclick="chan('btwo')"></li>
+                <li class="bthree" onclick="chan('bthree')"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end landing -->
+    <!-- start services  -->
+    <div class="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>SERVICES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem sint nesciunt consequuntur aut facere.</p>
+            </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <i class="fa-solid fa-desktop fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio consectetur animi doloremque neque laboriosam.</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-pen-ruler fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio consectetur animi doloremque neque laboriosam.</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-gear fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio consectetur animi doloremque neque laboriosam.</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                    <i class="fa-solid fa-camera fa-3x"></i>
+                    <div class="text">
+                        <h3>Vorem amet intuitive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio consectetur animi doloremque neque laboriosam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end services  -->
+    <!-- start design  -->
+    <div class="design">
+        <div class="image">
+            <img src="images/phone.png" alt="application">
+        </div>
+        <div class="text">
+            <h3>OUR DESIGNS COMES WITH...</h3>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- end design  -->
+    <!-- start Portfolio -->
+    <div class="portfolio">
+        <div class="container">
+            <div class="main-heading">
+                <h2>SERVICES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem sint nesciunt consequuntur aut facere.</p>
+            </div>
+            <ul class="shuffle">
+                <li class="active" onclick="filt('all')">all</li>
+                <li onclick="filt('app')">app</li>
+                <li onclick="filt('photo')">photo</li>
+                <li onclick="filt('web')">web</li>
+                <li onclick="filt('print')">print</li>
+            </ul>
+        </div>
+        <div class="imgs-container">
+            <div class="box" value="1">
+                <img src="images/shuffle10.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="1">
+                <img src="images/shuffle11.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="2">
+                <img src="images/shuffle12.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="2">
+                <img src="images/shuffle13.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="3">
+                <img src="images/shuffle14.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="3">
+                <img src="images/shuffle15.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="4">
+                <img src="images/shuffle16.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="4">
+                <img src="images/shuffle3.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="1">
+                <img src="images/shuffle10.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="1">
+                <img src="images/shuffle11.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="2">
+                <img src="images/shuffle12.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="2">
+                <img src="images/shuffle13.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="3">
+                <img src="images/shuffle14.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="3">
+                <img src="images/shuffle15.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="4">
+                <img src="images/shuffle16.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+            <div class="box" value="4">
+                <img src="images/shuffle3.jpg" alt="image">
+                <div class="caption">
+                    <h4>Awosome image</h4>
+                    <p>Photogaraphy</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="more">More</a>
+    </div>
+    <!-- end Portfolio -->
+    <!-- start video  -->
+    <div class="video">
+        <video autoplay loop muted>
+            <source src="images/back1.mp4">
+        </video>
+        <div class="text">
+            <h2>Super Awosome Video Here</h2>
+            <p>Its All You Need</p>
+            <button>See More</button>
+        </div>
+    </div>
+    <!-- end video  -->
+    <!-- start about  -->
+    <div class="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem sint nesciunt consequuntur aut facere.</p>
+            </div>
+            <img src="images/screen.png" alt="screens">
+        </div>
+    </div>
+    <!-- end about  -->
+    <!-- start state -->
+    <div class="state">
+        <div class="container">
+            <div class="box">
+                <i class="fa-solid fa-mug-saucer"></i>
+                <div class="number">1,263</div>
+                <p>Coffee Drinks</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-folder"></i>
+                <div class="number">256</div>
+                <p>Completed Projects</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="number">1,743</div>
+                <p>Mail Sent</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-medal"></i>
+                <div class="number">17</div>
+                <p>Awards Received</p>
+            </div>
+        </div>
+        
+    </div>
+    <!-- end state -->
+    <!-- start skill  -->
+    <div class="our-skills">
+        <div class="container">
+            <div class="coment">
+                <h3>Testimonials</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio consectetur animi doloremque neque laboriosam.</p>
+                <div class="content">
+                    <img src="images/person.jpg" alt="">
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident, dicta dolor enim necessitatibus rem!
+                        <p>john Doe, CEO</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="images/person1.jpg" alt="">
+                    <div class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa provident, dicta dolor enim necessitatibus rem!
+                        <p>john Doe, CEO</p>
+                    </div>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio consectetur animi doloremque neque laboriosam.</p>
+                <div class="prog-holder">
+                    <h4>Adobe</h4>
+                    <div class="prog">
+                        <span style="width:90%;" data-prog="90%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Html &amp; Css</h4>
+                    <div class="prog">
+                        <span style="width:70%;" data-prog="70%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>Javascript</h4>
+                    <div class="prog">
+                        <span style="width:80%;" data-prog="80%"></span>
+                    </div>
+                </div>
+                <div class="prog-holder">
+                    <h4>PHP</h4>
+                    <div class="prog">
+                        <span style="width:50%;" data-prog="50%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end skill  -->
+    <!-- start quote  -->
+    <div class="quote">
+        <div class="container">
+            <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non obcaecati necessitatibus repudiandae cumque, reiciendis labore quia vel dolores
+            </q>
+            <span>Jhon Doe</span>
+        </div>
+    </div>
+    <!-- end quote  -->
+    <script src="script.js"></script>
+</body>
+</html>
